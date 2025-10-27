@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mood-Based Song & Quote</title>
+  <link rel="stylesheet" href="music.css">
+</head>
+<body >
+  <div class="container">
+    <h1>Mood-Based Song & Quote Generator</h1>
+    <select id="moodSelector">
+      <option value="">-- Select Your Mood --</option>
+      <option value="happy">Happy</option>
+      <option value="sad">Sad</option>
+      <option value="angry">Angry</option>
+      <option value="calm">Calm</option>
+      <option value="motivated">Motivated</option>
+    </select>
+    <button onclick="showMoodContent()">Generate</button>
+
+    <div class="output" id="outputArea"> 
+      <!-- Results will appear here -->
+    </div>
+  </div>
+
+  <script src="music.js"></script>
+</body>
+</html>
